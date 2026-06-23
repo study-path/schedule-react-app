@@ -1,16 +1,20 @@
-# React + Vite
+# Scheduling Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simplified healthcare scheduling dashboard built with React, inspired by real-world appointment management workflows.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [schedule-slot-react-app.vercel.app/)](https://schedule-slot-react-app.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Appointment slots — displays patient name, time, and status with color-coded badges
+- Status filtering — filter appointments by Booked, Open, or Cancelled
+- Add new appointment — form to add a new slot to the schedule in real time
+- Live patient data — fetches real data from an external API on load with a loading state
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React 18
+- Vite
+- Tailwind CSS
+- Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
