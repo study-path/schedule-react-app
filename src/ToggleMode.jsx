@@ -1,6 +1,5 @@
 const ToggleMode = (props) => {
   const { isDarkMode, onToggle } = props;
-
   return (
     <>
       <div>The Mode is {isDarkMode ? "🌙" : "☀️ "}</div>

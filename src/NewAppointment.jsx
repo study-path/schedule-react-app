@@ -16,7 +16,6 @@ const NewAppointment = (props) => {
       status: status,
     };
     onAdd(newSlot);
-
     setTime("");
     setName("");
     setStatus("booked");

@@ -88,6 +88,7 @@ const ScheduleList = () => {
       >
         All
       </button>
+
       {isLoading ? <div>loading... </div> : <div>{slotsList}</div>}
       <div>Add new appointment</div>
       <NewAppointment

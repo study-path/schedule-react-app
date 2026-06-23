@@ -1,5 +1,6 @@
 const AppointmentSlot = (props) => {
   const { time, patientName, status } = props;
+
   const bgStatus = {
     booked: "bg-green-500",
     cancelled: "bg-red-500",

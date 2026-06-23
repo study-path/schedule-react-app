@@ -11,7 +11,6 @@ function App() {
       className={`${isDarkMode ? "bg-slate-800 text-white" : "bg-slate-300"} h-screen transition-all`}
     >
       <ToggleMode isDarkMode={isDarkMode} onToggle={setIsDarkMode} />
-
       <div className="flex justify-center">
         <ScheduleList />
       </div>
