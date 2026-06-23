@@ -8,7 +8,7 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   return (
     <div
-      className={`${isDarkMode ? "bg-slate-800 text-white" : "bg-slate-300"} h-screen transition-all`}
+      className={`${isDarkMode ? "bg-slate-800 text-white" : "bg-slate-300"}  transition-all`}
     >
       <ToggleMode isDarkMode={isDarkMode} onToggle={setIsDarkMode} />
       <div className="flex justify-center">
