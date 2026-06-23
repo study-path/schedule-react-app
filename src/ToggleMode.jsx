@@ -2,9 +2,9 @@ const ToggleMode = (props) => {
   const { isDarkMode, onToggle } = props;
   return (
     <>
-      <div>The Mode is {isDarkMode ? "🌙" : "☀️ "}</div>
+      The Mode is {isDarkMode ? "🌙" : "☀️ "}
       <button
-        className="bg-green-400 border-2 border-green-600 lack mx-2 rounded-xl p-1"
+        className="bg-green-400 border-2 border-green-600 lack mx-2 px-1 rounded-xl "
         onClick={() => onToggle((prev) => !prev)}
       >
         Switch Mode
