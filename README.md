@@ -1,6 +1,7 @@
 # Scheduling Dashboard
 
 A simplified healthcare scheduling dashboard built with React, inspired by real-world appointment management workflows.
+
 🔗 **Live Demo:** [schedule-slot-react-app.vercel.app/)](https://schedule-slot-react-app.vercel.app/)
 
 
